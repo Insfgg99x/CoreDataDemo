@@ -134,15 +134,17 @@
                          @"女",@"女",@"女",@"女",@"女",
                          @"女",@"男",@"女",@"女",@"男",
                          @"女",@"男",@"男",@"男",@"男",@"女"];
-        DBManager *mgr=[DBManager shared];
+        //批量插入
         for(int i=0;i<20;i++){
+            
             NSString *name=names[i];
             NSNumber *age=@(20+arc4random_uniform(5));
             NSString *uid=@(2016100+i+1).stringValue;
             NSString *sex=sexes[i];
-            [mgr insert:name sex:sex age:age uid:uid];
+            [[DBManager shared] insert:name sex:sex age:age uid:uid];
         }
     }
+    [[DBManager shared] saveContext];
 }
 -(UITableView *)tbView
 {

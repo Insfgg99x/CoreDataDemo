@@ -21,5 +21,6 @@
 -(NSArray *)filterSex:(NSString *)sex;
 -(NSArray *)sortWithAgeAcsend:(NSComparisonResult)compare;
 -(NSArray *)fiterSex:(NSString *)sex ageAcsending:(NSComparisonResult)compare;
+-(void)saveContext;
 
 @end

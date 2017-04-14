@@ -145,6 +145,7 @@
 				TargetAttributes = {
 					E8618BE81CCC4B69006008F2 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7CA89CVK8A;
 					};
 				};
 			};
@@ -307,6 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CA89CVK8A;
 				INFOPLIST_FILE = CoreDataUse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xgf.CoreDataUse;
@@ -318,6 +320,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CA89CVK8A;
 				INFOPLIST_FILE = CoreDataUse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xgf.CoreDataUse;
@@ -344,6 +347,7 @@
 				E8618C021CCC4B69006008F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

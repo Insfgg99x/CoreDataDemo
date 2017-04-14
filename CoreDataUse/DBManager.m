@@ -73,6 +73,9 @@ static DBManager *manager=nil;
     people.sex=sex;
     people.age=age;
     people.uid=uid;
+}
+-(void)saveContext{
+    
     [_ctxt save:nil];
 }
 -(void)deletePeopleWithUid:(NSString *)uid{
